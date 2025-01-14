@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(68, 68, 68);
+    color: #333;
+    background-size: 200px;
+    background-repeat: repeat-x repeat-y;
+}
+
+header {
+    background-image: url("images/music.png");
+    background-repeat: repeat-x;
+    background-color: #444;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.song-list h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #444;
+    color: white;
+}
+
+.song-item:hover {
+    background-color: #f1f1f1;
+}
+
+.song-item td {
+    padding: 12px;
+}
+
+.song-item a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.btn-view {
+    background-color: #007bff;
+}
+
+.btn-edit {
+    background-color: #ffc107;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.btn-add {
+    padding: 0.6rem 1.2rem;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn-add:hover {
+    background-color: #218838;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+tfoot {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 1rem;
+}
+
+.btn-logout {
+    color: white;
+    background-color: #343a40;
+    padding: 0.6rem 1.2rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn-logout:hover {
+    background-color: #23272b;
+}
+.contentFooter {
+    padding: 4px 0 0 0;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-top: 1px solid #878787;
+    color:rgb(255, 255, 255);
+}
+
+.kanan {
+    text-align: right;
+}
+.tengah {
+    text-align: center;
+}
